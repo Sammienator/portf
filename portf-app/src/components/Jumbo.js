@@ -9,7 +9,7 @@ function Cont2() {
       {/* Stack the columns on mobile by making one full-width  */}
       <Row>
         <Col xs={12}  >
-         <h1 className='heading'> Lorem ipsum dolor sit aliqua. </h1>
+         <h1 className='heading'> Juniour Front-End Developer. </h1>
         </Col>
         
       </Row>
@@ -20,15 +20,15 @@ function Cont2() {
       <Row>
 
 
-      <Col xs={6}>
+      <Col xs={6} className="mt-5">
         <h2>Lorem ipsum dolor sit amet </h2>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </Col>
 
 
-        <Col xs={6}>
+        <Col xs={6} className="mt-5">
         
-        <img width="100%" height= "100%"
+        <img width="70%" height= "50%"
           className="d-block"
           src={pic3}
           alt="First slide"
