@@ -2,7 +2,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/esm/Container';
 import pic1 from '../assets/pic1.jpg';
 import pic2 from '../assets/pic2.jpg';
-import pic4 from '../assets/pic4.jpg';
+import html from '../assets/html.jpg';
+import css from '../assets/css.jpg';
+import node from '../assets/node.jpg';
 
 function DarkVariantExample() {
   return (
@@ -19,10 +21,7 @@ function DarkVariantExample() {
           src={pic1}
           alt="First slide"
         />
-        <Carousel.Caption>
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+       
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -30,25 +29,42 @@ function DarkVariantExample() {
           src={pic2}
           alt="Second slide"
         />
-        <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+       
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={pic4}
+          src={html}
           alt="Third slide"
         />
-        <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+        
       </Carousel.Item>
+
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={css}
+          alt="Third slide"
+        />
+       
+      </Carousel.Item>
+
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={node}
+          alt="Third slide"
+        />
+      
+      </Carousel.Item>
+
     </Carousel>
+
+      <h3> I have always loved code</h3>
+
+    
     </Container>
     </div>
   );
