@@ -1,7 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import pic3 from '../assets/pic3.jpg';
+import jumbo from '../assets/jumbo.jpg';
+import Button from 'react-bootstrap/Button';
 
 function Cont2() {
   return (
@@ -21,17 +22,24 @@ function Cont2() {
 
 
       <Col xs={6} className="mt-5">
-        <h2>Lorem ipsum dolor sit amet </h2>
+        <h2>Code is Life, Art! </h2>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <br/>
+        <p><Button variant="primary"> Get Quote </Button>{' '}
+      <Button variant="secondary">Skills</Button>{' '}
+      </p>
+        
         </Col>
 
 
         <Col xs={6} className="mt-5">
         
-        <img width="70%" height= "50%"
+        <img 
           className="d-block"
-          src={pic3}
+          src={jumbo}
           alt="First slide"
+          id='jumbo'
+          
         />
         
         </Col>

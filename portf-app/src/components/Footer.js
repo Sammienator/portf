@@ -2,6 +2,8 @@ import React from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faGithub, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
 
 
 
@@ -10,9 +12,9 @@ const style = {
   borderTop: "1px solid #E7E7E7",
   textAlign: "center",
   padding: "20px",
-  position: "fixed",
+  position: "sticky",
   left: "0",
-  bottom: "0",
+  top: "100",
   height: "70px",
   width: "100%"
 };
@@ -28,10 +30,13 @@ const style = {
            
             <Col xs={12} >
             < >
-            <FontAwesomeIcon icon="fa-brands fa-facebook" />
-            <p>  <i class="fab fa-github"></i> github</p>
-            <p>  <i class="fab fa-twitter"></i>Twitter</p>
-            <p>  <i class="fab fa-instagram"></i>Instagram</p>
+            <p>  <FontAwesomeIcon icon={faFacebook} /> </p>
+            <p>  <FontAwesomeIcon icon={faGithub} /> </p>
+            <p>  <FontAwesomeIcon icon={faInstagram} />  </p>
+            <p> <FontAwesomeIcon icon={faTwitter} />  </p>
+           
+            
+            
           
             
             

@@ -1,0 +1,26 @@
+*{
+    font-family: 'Carattere', cursive;
+    font-weight: bolder;
+    font-size: large;
+}
+h1, h2, h3 {
+    
+    font-weight: bolder;
+}
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+#jumbo{
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    margin-left: 30px;
+}
+.image{
+    height: 500px;
+    width: 80%;
+    
+    
+}

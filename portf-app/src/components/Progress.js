@@ -5,15 +5,17 @@ import Container from 'react-bootstrap/esm/Container';
 function StripedExample() {
   return (
     <div>
-      <h1> My Skills</h1>
-      <p> I am proficient in several languages and frameworks</p>
+     
+      <p className='heading'>  languages and frameworks i am proficient in</p>
       <Container>  
-      <ProgressBar animated now={40} label={`JAVASCRIPT`} />
-      <ProgressBar animated now={60} label={`CSS`} />
-      <ProgressBar animated now={20} label={`REACT`}/>
-      <ProgressBar animated now={90}label={`HTML`} />
-      <ProgressBar animated now={90}label={`BOOTSTRAP`} />
-      <ProgressBar animated now={90}label={`NODEJS`} />
+     <p><ProgressBar animated now={40} label={`JAVASCRIPT`} />   </p> 
+     <p><ProgressBar animated now={100} label={`HTML`} />   </p>
+     <p><ProgressBar animated now={95} label={`CSS`} />   </p>
+     <p><ProgressBar animated now={90} label={`BOOTSTRAP`} />   </p>
+     <p><ProgressBar animated now={50} label={`NODEJS`} />   </p>
+     <p><ProgressBar animated now={60} label={`MONGODB`} />   </p>
+     <p><ProgressBar animated now={50} label={`EXPRESSJS`} />   </p>
+      
 
       </Container>
     </div>
