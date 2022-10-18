@@ -21,14 +21,27 @@ const style = {
 
  function footer () {
   return (
-    <div style={style}>
+    <div style={style} bg="success">
       
 
 
 
-            <Row>
+            <Row >
+            <Col xs={6} >
+            < >
            
-            <Col xs={12} >
+            <h2> Visit my social media platforms for more projects and insights.</h2>
+            
+            
+          
+            
+            
+            </>
+          
+                    
+            </Col>
+           
+            <Col xs={6} className="ms-auto"   >
             < >
             <p>  <FontAwesomeIcon icon={faFacebook} /> </p>
             <p>  <FontAwesomeIcon icon={faGithub} /> </p>
@@ -44,6 +57,8 @@ const style = {
           
                     
             </Col>
+
+       
             </Row>
 
     </div>

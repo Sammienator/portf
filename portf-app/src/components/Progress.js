@@ -8,13 +8,13 @@ function StripedExample() {
      
       <p className='heading'>  languages and frameworks i am proficient in</p>
       <Container>  
-     <p><ProgressBar animated now={40} label={`JAVASCRIPT`} />   </p> 
-     <p><ProgressBar animated now={100} label={`HTML`} />   </p>
-     <p><ProgressBar animated now={95} label={`CSS`} />   </p>
-     <p><ProgressBar animated now={90} label={`BOOTSTRAP`} />   </p>
-     <p><ProgressBar animated now={50} label={`NODEJS`} />   </p>
-     <p><ProgressBar animated now={60} label={`MONGODB`} />   </p>
-     <p><ProgressBar animated now={50} label={`EXPRESSJS`} />   </p>
+     <p><ProgressBar animated now={40} label={`Javascript`} />   </p> 
+     <p><ProgressBar animated now={100} label={`Html`} />   </p>
+     <p><ProgressBar animated now={95} label={`Css`} />   </p>
+     <p><ProgressBar animated now={90} label={`Bootstrap`} />   </p>
+     <p><ProgressBar animated now={50} label={`Nodejs`} />   </p>
+     <p><ProgressBar animated now={60} label={`Mongodb`} />   </p>
+     <p><ProgressBar animated now={50} label={`Expressjs`} />   </p>
       
 
       </Container>

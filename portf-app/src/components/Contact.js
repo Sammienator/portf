@@ -6,11 +6,14 @@ function Contact () {
   return (
 
    <div> 
-    <h2> Reach out to me below for a quote, questions or clarifications</h2>
+    
      <Container>    
+
+     <h2 className='heading'> Reach out to me below for a quote, questions or clarifications</h2>
+
     <Form>
 
-     <Form.Group className="mb-3" controlId="formBasicEmail">
+     <Form.Group className="mb-3" controlId="formBasicName">
         <Form.Label>Full Name</Form.Label>
         <Form.Control type="Names" placeholder="Enter Your Name" />
         
@@ -25,16 +28,27 @@ function Contact () {
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label>Password</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
+        <Form.Label>Telephone Number</Form.Label>
+        <Form.Control type="Number" placeholder="Telephone Number" />
+        <Form.Text className="text-muted">
+          We'll never share your Mobile Number with anyone else.
+        </Form.Text>
       </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formBasicMessage">
+        <Form.Label>Peronal Message</Form.Label>
+        <Form.Control as="textarea" type='Message' placeholder='Write Your Message Here....' rows={3} />
+      </Form.Group>
+
+
       <Form.Group className="mb-3" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
+        <Form.Check type="checkbox" label="Join My Mailing List Community" />
       </Form.Group>
       <Button variant="primary" type="submit">
         Submit
       </Button>
     </Form>
+
     </Container>
 
       </div>
