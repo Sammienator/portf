@@ -71,8 +71,14 @@ function DarkVariantExample() {
 
 
       <Col xs={4} className="mt-5">
-      <h3> I have always loved code</h3>
-      <p>I have three years experience in software development</p>
+      <h3> Brief Personal Summary</h3>
+
+      <p> 
+
+      Creative Front-End Developer offering 3+ years of experience providing high-impact web solutions for diverse industry organizations. Skilled in designing, developing and testing multiple web-based applications incorporating a range of technologies. Aspiring to combine broad background with strong technical skills to excel as a Front-End Developer
+        </p>
+
+           <p> Very passionate about aesthetics and UI design.</p>
       
         
         </Col>
@@ -80,7 +86,7 @@ function DarkVariantExample() {
 
         <Col xs={4} className="mt-5">
         <h3> I have always loved code</h3>
-      <p>I have three years experience in software development</p>
+      <p>Produced stunning visual elements of web applications by translating UI/UX design wireframes into code while producing high quality, reusable markup using HTML5 and CSS3</p>
         
      
         
@@ -89,7 +95,7 @@ function DarkVariantExample() {
         
         <Col xs={4} className="mt-5">
         <h3> I have always loved code</h3>
-      <p>I have three years experience in software development</p>
+      <p>Seasoned and independent Front End Developer with 3 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging.</p>
         
      
         

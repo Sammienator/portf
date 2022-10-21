@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import jumbo from '../assets/jumbo.jpg';
+import m2 from '../assets/m2.jpeg';
 import Button from 'react-bootstrap/Button';
 
 function Cont2() {
@@ -36,7 +36,7 @@ function Cont2() {
         
         <img 
           className="d-block"
-          src={jumbo}
+          src={m2}
           alt="First slide"
           id='jumbo'
           
