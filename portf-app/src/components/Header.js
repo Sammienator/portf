@@ -8,8 +8,10 @@ import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 
 function Header() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg"  >
+    <Navbar className= "color-nav" variant="light" expand="lg"  >
+
       <Container>
+
         <Navbar.Brand href="#home">Samuel Portfolio <FontAwesomeIcon icon={faGoogle}/> </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

@@ -7,9 +7,9 @@ function Contact () {
 
    <div> 
     
-     <Container>    
+     <Container style={{fontFamily: "Cinzel Decorative, cursive"}}>    
 
-     <h2 className='heading'> Reach out to me below for a quote, questions or clarifications</h2>
+     <h2 className='heading' style={{fontWeight: "bolder" , fontSize: "40px", marginTop: "100px"}}> Reach out to me below for a quote, questions or clarifications</h2>
 
     <Form>
 
@@ -23,7 +23,7 @@ function Contact () {
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
         <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
+          We will never share your email with anyone else.
         </Form.Text>
       </Form.Group>
 
@@ -31,7 +31,7 @@ function Contact () {
         <Form.Label>Telephone Number</Form.Label>
         <Form.Control type="Number" placeholder="Telephone Number" />
         <Form.Text className="text-muted">
-          We'll never share your Mobile Number with anyone else.
+          We will never share your Mobile Number with anyone else.
         </Form.Text>
       </Form.Group>
 

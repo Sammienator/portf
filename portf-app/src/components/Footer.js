@@ -16,26 +16,24 @@ const style = {
   left: "0",
   top: "100",
   height: "70px",
-  width: "100%"
+  width: "100%",
+  marginTop: "70px"
 };
 
  function footer () {
   return (
-    <div style={style} bg="success">
+    <div style={style} bg="success" >
       
 
 
 
-            <Row >
+            <Row  style={{fontFamily: "Cinzel Decorative, cursive" }}>
             <Col xs={6} >
             < >
            
             <h2> Visit my social media platforms for more projects and insights.</h2>
-            
-            
-          
-            
-            
+                 
+                     
             </>
           
                     
@@ -56,6 +54,16 @@ const style = {
             </>
           
                     
+            </Col>
+
+
+            <Col>
+            <>
+            <h2 style={{textDecoration: "underline" , fontWeight:"bolder"}}> The Sammienator Inc 2022 © </h2>
+            
+            </>
+            
+            
             </Col>
 
        

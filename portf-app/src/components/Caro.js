@@ -12,7 +12,7 @@ function DarkVariantExample() {
   return (
 
   <div> 
-      <h2 className='heading' > About Me </h2>
+      <h2 className='heading' style={{fontFamily: "Cinzel Decorative, cursive", fontSize: "50px" ,fontWeight: "bolder"}} > About Me </h2>
       <Container>
 
       
@@ -67,43 +67,67 @@ function DarkVariantExample() {
 
       
 
-      <Row>
+      <Row >
 
 
-      <Col xs={4} className="mt-5">
-      <h3> Brief Personal Summary</h3>
+      <Col xs={4} className="mt-5" style={{fontFamily: "Cinzel Decorative, cursive"}}>
+      <h3 style={{fontSize: "30px" ,fontWeight: "bolder", textDecoration: "underline"}}> Brief Personal Summary</h3>
 
       <p> 
 
-      Creative Front-End Developer offering 3+ years of experience providing high-impact web solutions for diverse industry organizations. Skilled in designing, developing and testing multiple web-based applications incorporating a range of technologies. Aspiring to combine broad background with strong technical skills to excel as a Front-End Developer
+      A positive, innovative, results-driven Junior Software Developer with 2 years of experience in front end development and who takes pride in the ability to effectively combine workplace objectives with personal and professional goals.I am extremely versatile in multiple dvelopment stacks as well.
         </p>
 
-           <p> Very passionate about aesthetics and UI design.</p>
+           
       
         
         </Col>
 
 
-        <Col xs={4} className="mt-5">
-        <h3> I have always loved code</h3>
-      <p>Produced stunning visual elements of web applications by translating UI/UX design wireframes into code while producing high quality, reusable markup using HTML5 and CSS3</p>
+        <Col xs={4} className="mt-5" style={{fontFamily: "Cinzel Decorative, cursive"}}>
+        <h3 style={{fontSize: "30px" ,fontWeight: "bolder",textDecoration: "underline"}}> I have always loved code</h3>
+      <p>
+      I am a Supportive and enthusiastic team player dedicated to efficiently achieving and surpassing my project goals. I aspire to willingly be  innovative and learn new technologies as well. I am also a  quick learner who is  passionate about development.
+
+      </p>
         
      
         
         </Col>
 
         
-        <Col xs={4} className="mt-5">
-        <h3> I have always loved code</h3>
-      <p>Seasoned and independent Front End Developer with 3 years of experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging.</p>
+        <Col xs={4} className="mt-5" style={{fontFamily: "Cinzel Decorative, cursive"}}>
+        <h3 style={{fontSize: "30px" ,fontWeight: "bolder", textDecoration: "underline"}}> My profeciencies</h3>
+      <p>
+      My skills are, but not limited to: HTML5, CSS3,Vanilla Javascript, Mongo DB, BOOTSTRAP v4, BOOTSTRAP V5,React-BOOTSTRAP , Visual Studio among others. I also posses excellent Customer Service etiquette, i am a Creative thinker, i am dependable as well as being a team player.
+      </p>
         
      
         
         </Col>
+
+
+        
         
      
         
       </Row>
+
+
+
+
+      <Row className='head' style={{marginBottom: "90px", fontFamily: "Cinzel Decorative, cursive" }} >
+      <Col >
+        <h4 > "Very passionate about aesthetics and UI design."</h4>
+        
+        </Col>
+
+
+      </Row>
+
+
+
+      
 
     
     </Container>
