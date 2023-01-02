@@ -12,7 +12,7 @@ function DarkVariantExample() {
   return (
 
   <div> 
-      <h2 className='heading' style={{fontFamily: "Cinzel Decorative, cursive", fontSize: "50px" ,fontWeight: "bolder"}} > About Me </h2>
+      <h2 className='heading' style={{fontFamily: "Cinzel Decorative, cursive", fontSize: "50px" ,fontWeight: "bolder" , "marginTop": "90px"}} > About Me </h2>
       <Container>
 
       
@@ -67,11 +67,11 @@ function DarkVariantExample() {
 
       
 
-      <Row >
+      <Row  >
 
 
-      <Col xs={4} className="mt-5" style={{fontFamily: "Cinzel Decorative, cursive"}}>
-      <h3 style={{fontSize: "30px" ,fontWeight: "bolder", textDecoration: "underline"}}> Brief Personal Summary</h3>
+      <Col xs={6} className="mt-5" style={{fontFamily: "Cinzel Decorative, cursive"}}>
+      <h3 style={{fontSize: "30px" ,fontWeight: "bolder", textDecoration: "underline"}}> Brief  Personal  Summary</h3>
 
       <p> 
 
@@ -84,7 +84,7 @@ function DarkVariantExample() {
         </Col>
 
 
-        <Col xs={4} className="mt-5" style={{fontFamily: "Cinzel Decorative, cursive"}}>
+        <Col xs={6} className="mt-5" style={{fontFamily: "Cinzel Decorative, cursive"}}>
         <h3 style={{fontSize: "30px" ,fontWeight: "bolder",textDecoration: "underline"}}> I have always loved code</h3>
       <p>
       I am a Supportive and enthusiastic team player dedicated to efficiently achieving and surpassing my project goals. I aspire to willingly be  innovative and learn new technologies as well. I am also a  quick learner who is  passionate about development.
@@ -96,15 +96,7 @@ function DarkVariantExample() {
         </Col>
 
         
-        <Col xs={4} className="mt-5" style={{fontFamily: "Cinzel Decorative, cursive"}}>
-        <h3 style={{fontSize: "30px" ,fontWeight: "bolder", textDecoration: "underline"}}> My profeciencies</h3>
-      <p>
-      My skills are, but not limited to: HTML5, CSS3,Vanilla Javascript, Mongo DB, BOOTSTRAP v4, BOOTSTRAP V5,React-BOOTSTRAP , Visual Studio among others. I also posses excellent Customer Service etiquette, i am a Creative thinker, i am dependable as well as being a team player.
-      </p>
-        
-     
-        
-        </Col>
+       
 
 
         
@@ -113,7 +105,22 @@ function DarkVariantExample() {
         
       </Row>
 
+   
 
+
+     <Row style={{"textAlign": "center"}}>
+
+     <Col xs={12} className="mt-5" style={{fontFamily: "Cinzel Decorative, cursive"}}>
+        <h3 style={{fontSize: "30px" ,fontWeight: "bolder", textDecoration: "underline" , }}> My profeciencies</h3>
+      <p >
+      My skills are, but not limited to: HTML5, CSS3,Vanilla Javascript, Mongo DB, BOOTSTRAP v4, BOOTSTRAP V5,React-BOOTSTRAP , Visual Studio among others. I also posses excellent Customer Service etiquette, i am a Creative thinker, i am dependable as well as being a team player.
+      </p>
+        
+     
+        
+        </Col>
+
+     </Row>
 
 
       <Row className='head' style={{marginBottom: "90px", fontFamily: "Cinzel Decorative, cursive" }} >
